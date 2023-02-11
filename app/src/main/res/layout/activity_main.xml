@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.sudoku.Tabla
+        android:id="@+id/sudokuTabla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:bojaOznaceneKolRed="#f5f5f5"
+        custom:bojaPopunjeneCelije="#cfcfcf"
+        custom:bojaTable="#000000"
+        custom:bojaBrojaKorisnik="#000000"
+        custom:bojaBrojaBot="#029fe5"
+        custom:bojaZaSakrivanje="@color/white"
+        custom:layout_constraintBottom_toBottomOf="parent"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintHorizontal_bias="0.473"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toTopOf="parent"
+        custom:layout_constraintVertical_bias="0.283">
+
+
+    </com.example.sudoku.Tabla>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="72dp"
+        android:layout_weight="1"
+        android:background="@drawable/resi_btn"
+        android:onClick="DugmeResi"
+        android:text="@string/resi"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        custom:layout_constraintEnd_toStartOf="@+id/button11"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="457dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        custom:layout_constraintStart_toStartOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/sudokuTabla">
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeJedan"
+            android:text="@string/jedan"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeDva"
+            android:text="@string/dva"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeTri"
+            android:text="@string/tri"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeCetiri"
+            android:text="@string/cetiri"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmePet"
+            android:text="@string/pet"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeSest"
+            android:text="@string/sest"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeSedam"
+            android:text="@string/sedam"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeOsam"
+            android:text="@string/osam"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeDevet"
+            android:text="@string/devet"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button15"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="DugmeOsam"
+            android:text="@string/devet"
+            android:textColor="#aaa69e"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/resi_btn"
+        android:onClick="DugmePomoc"
+        android:text="Pomoc"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        custom:layout_constraintEnd_toEndOf="parent"
+        custom:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

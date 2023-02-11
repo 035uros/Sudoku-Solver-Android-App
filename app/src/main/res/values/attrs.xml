@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Tabla">
+        <attr name="bojaTable" format="color" />
+        <attr name="bojaPopunjeneCelije" format="color" />
+        <attr name="bojaOznaceneKolRed" format="color" />
+        <attr name="bojaBrojaKorisnik" format="color" />
+        <attr name="bojaBrojaBot" format="color" />
+        <attr name="bojaZaSakrivanje" format="color" />
+    </declare-styleable>
+</resources>
