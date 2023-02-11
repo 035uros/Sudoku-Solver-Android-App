@@ -18,11 +18,11 @@ The options offered to the user are:
 
 By clicking on the "Help" button, the application helps the user to solve the Sudoku puzzle by revealing the cell that the user marks.
 
-![help](https://github.com/035uros/Sudoku-Solver-Android-App/blob/main/images/Capture3.PNG)
+![help](https://github.com/035uros/Sudoku-Solver-Android-App/blob/main/images/Capture4.PNG)
 
 Clicking on the "Solve" button will reveal the solution to the entire puzzle, highlighted in blue.
 
-![help](https://github.com/035uros/Sudoku-Solver-Android-App/blob/main/images/Capture4.PNG)
+![help](https://github.com/035uros/Sudoku-Solver-Android-App/blob/main/images/Capture5.PNG)
 
 By clicking the "Clear" button, the entire content of the board is deleted and the entire operation can be started again.
 
