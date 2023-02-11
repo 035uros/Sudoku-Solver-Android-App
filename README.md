@@ -3,6 +3,7 @@
 The project assignment represents an application created in the Java programming language with the help of the Android Studio development environment. The application works simple, without unnecessary menus, the complete content of the application is available to us upon opening.
 
 The user is presented with an empty Sudoku board.
+
 ![main](https://github.com/035uros/Sudoku-Solver-Android-App/blob/main/images/Capture.PNG)
 
 Entering numbers in the Sudoku board is done in the following way. By clicking on the cell of the matrix that represents the board, the selected field is highlighted, and by clicking on the number from the selection below the Sudoku board, a specific number is entered in the board.
